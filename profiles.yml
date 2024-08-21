@@ -1,0 +1,9 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: prj-s-artem-boiko-c1ea
+      dataset:  reports
+      timeout_seconds: 60
